@@ -1,0 +1,8 @@
+{
+  "name": "SARS Global",
+  "description": "SARS Global combines creative marketing, high-performance technology and intelligent automation to help ambitious brands scale globally.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

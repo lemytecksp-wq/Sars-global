@@ -1,0 +1,28 @@
+{
+  "name": "sars-global-next",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js App Router rebuild of the SARS Global website.",
+  "scripts": {
+    "dev": "next dev -p 3000 -H 0.0.0.0",
+    "prebuild": "node scripts/clean-build-cache.mjs",
+    "build": "next build",
+    "start": "next start",
+    "pretypecheck": "node scripts/clean-build-cache.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "validate": "node scripts/validate.mjs",
+    "audit:pages": "node scripts/audit-pages.mjs"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
